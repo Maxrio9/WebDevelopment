@@ -24,3 +24,4 @@ const actions = [
     'likes turtles.'
 ]
 
+console.log(introductions[Math.floor(Math.random() * introductions.length)] + ' ' + people[Math.floor(Math.random() * people.length)] + ' ' + actions[Math.floor(Math.random() * actions.length)]);
