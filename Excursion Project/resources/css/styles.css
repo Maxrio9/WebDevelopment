@@ -1,4 +1,4 @@
-.main-titel {
+h1 {
     font-family: Verdana;
     font-weight: normal;
     font-size: 50px;
@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.prompt {
+h4 {
     color: aquamarine;
     text-align: center;
 }
@@ -16,9 +16,20 @@
     text-align: center;
 }
 
-.title {
+h2 {
     font-family: Verdana;
     font-weight: 300;
     font-size: 42px;
     color: white;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 21px;
+    color: gray;
+}
+
+.copyright {
+    color: gray;
+    text-align: right;
 }
