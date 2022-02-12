@@ -1,0 +1,43 @@
+* {
+    font-family: "Sourc Code Pro", monospace;
+}
+
+section {
+    border: 1px solid rgb(31, 31, 31);
+}
+
+#fonts h3 {
+    font-style: underline;
+}
+
+.scp-200 {
+    font-size: 150%;
+    font-weight: 200;
+}
+
+.scp-200-ita {
+    font-size: 150%;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.scp-300 {
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.scp-300-ita {
+    font-size: 150%;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.scp-400 {
+    font-size: 150%;
+    font-weight: 400;
+}
+
+.scp-700 {
+    font-size: 150%;
+    font-weight: 700;
+}
