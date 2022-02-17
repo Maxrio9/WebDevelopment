@@ -2,11 +2,23 @@
     font-family: Helvertica;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
+    width: 1200px;
 }
 
 .header {
+    display: inline-flex;
     height: 69px;
+}
+
+.header ul {
+    display: inline-flex;
+    text-align: right;
+    align-content: right;
+}
+
+.header img {
+    height: 50px;
+    margin-left: 10px;
 }
 
 .banner {
@@ -14,14 +26,11 @@
     height: 700px;
     width: 1200px;
     display: flex;
+    text-align: center;
     align-items: center;
-    margin: auto auto;
 }
 
 .banner * {
-    display: stretch;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
     width: 1200px;
 }
