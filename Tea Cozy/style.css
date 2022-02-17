@@ -15,10 +15,15 @@
     width: 1200px;
     display: flex;
     align-items: center;
+    margin: auto auto;
 }
 
 .banner * {
+    display: stretch;
+    align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    width: 1200px;
 }
 
 .month {
