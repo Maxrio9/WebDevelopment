@@ -1,8 +1,50 @@
 * {
     font-family: Helvertica;
-    font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
+}
+
+.header {
+    height: 69px;
+}
+
+.banner {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner * {
     justify-content: center;
+}
+
+.month {
+    display: flex;
+    justify-content: center;
+}
+
+.month img {
+    width: 300px;
+    height: 200px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+}
+
+footer section{
+    height: 200px;
+    display: flex;
+    align-items: stretch;
+}
+
+footer section * {
+
 }
