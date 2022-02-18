@@ -10,14 +10,20 @@
     height: 69px;
 }
 
-.header ul {
-    display: inline-flex;
+.nav {
     text-align: right;
-    align-content: right;
+}
+
+.nav li {
+    display: inline;
+    font-size: 22px;
+    padding: auto 10px;
 }
 
 .header img {
+    padding: 10px;
     height: 50px;
+    width: 150px;
     margin-left: 10px;
 }
 
@@ -31,7 +37,7 @@
 }
 
 .banner * {
-    margin: 0 auto;
+    margin: 5px auto;
     width: 1200px;
 }
 
