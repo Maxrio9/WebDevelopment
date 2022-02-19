@@ -43,17 +43,28 @@
 
 .month {
     width: 1000px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .month h2 {
 }
 
 .image-container {
-    display: inline-flex;
+    width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 
 .image-container div {
     width: 300px;
+    flex-direction:row;
+}
+
+.image-container h4 {
+    margin: 10px auto;
 }
 
 .month img {
