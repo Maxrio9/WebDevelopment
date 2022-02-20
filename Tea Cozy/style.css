@@ -83,6 +83,7 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: space-around;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     height: 500px;
     width: 1200px;
@@ -101,17 +102,21 @@
     justify-content: space-around;
     align-items: center;
     margin: 0px 100px;
+    background-color: #24455500;
 }
 
 .specific-location div {
     display: inline-flex;
     flex-flow: column nowrap;
     width: 300px;
+    border: 1px solid seashell;
+    background-color: #000000ef;
 }
 
 .specific-location div * {
     width: 300px;
     text-align: center;
+    background-color: #00000000;
 }
 
 footer section{
