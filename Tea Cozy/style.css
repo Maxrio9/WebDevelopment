@@ -43,28 +43,35 @@
 
 .month {
     width: 1000px;
-    text-align: center;
-    justify-content: center;
-    align-items: flex-start;
+    display: flex;
+    flex-flow: column nowrap;
 }
-
-.month h2 {
+.month h2, .month .subtitle {
+    text-align: center;
 }
 
 .image-container {
+    margin: 0px 100px;
     width: 1000px;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
 }
 
 .image-container div {
     width: 300px;
-    flex-direction:row;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 8px 5px;
 }
 
 .image-container h4 {
+    width: 300px;
     margin: 10px auto;
+    text-align: center;
 }
 
 .month img {
@@ -74,18 +81,46 @@
 
 .location {
     display: flex;
-    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
     height: 500px;
     width: 1200px;
 }
 
+.location h2 {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 200px;
+    background-color: #24455500;
+}
+
+.specific-location {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.specific-location div {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    width: 300px;
+}
+
+.specific-location div * {
+    width: 300px;
+    text-align: center;
+}
+
 footer section{
     height: 200px;
     display: flex;
-    align-items: stretch;
+    flex-flow: column nowrap;
+    text-align: center;
 }
 
-footer section * {
-
+footer .copyright {
+    margin: 20px 20px;
 }
