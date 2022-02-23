@@ -1,4 +1,45 @@
-a {
-    color: lightblue;
-    text-decoration: underline;
+html {
+    background-color: #0f0f0f;
+    color: rgb(224, 224, 224);
+}
+
+header .bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border: #1f1f1f outset 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    align-content: center;
+}
+
+nav li a{
+    font-size: 1.2rem;
+    padding: 0px 5px;
+    color:rgb(224, 224, 224);
+    text-decoration: none;
+}
+
+.banner {
+    max-height: 375px;
+    overflow: hidden;
+    z-index: -5;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 30%;
+    z-index: -5;
 }
