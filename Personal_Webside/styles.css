@@ -4,10 +4,12 @@ html {
 }
 
 header .bar {
+    z-index: 5;
     display: flex;
     justify-content: space-between;
     padding: 0px 10px;
     border: #1f1f1f outset 5px;
+    background-color: #0f0f0f;
 }
 
 nav {
@@ -30,16 +32,12 @@ nav li a{
 }
 
 .banner {
-    max-height: 375px;
+    height: 630px;
+    max-height: 1500px;
     overflow: hidden;
     z-index: -5;
 }
 
 .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 30%;
-    z-index: -5;
+    
 }
