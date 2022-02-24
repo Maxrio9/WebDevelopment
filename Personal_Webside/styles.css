@@ -93,6 +93,14 @@ footer {
     padding: 0px 5%;
 }
 
+form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
 @media only screen and (max-width: 512px) {
     .bar {
         justify-content: center;
