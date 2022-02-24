@@ -92,3 +92,23 @@ nav li a{
 footer {
     padding: 0px 5%;
 }
+
+@media only screen and (max-width: 512px) {
+    .bar {
+        justify-content: center;
+    }
+    
+    .bar h1 {
+        display: none;
+    }
+
+    .skills ul{
+        flex-direction: column;
+    }
+
+    .skills li {
+        width: 80%;
+        border-right: none;
+        border-bottom: #363636 0.1rem dashed;
+    }
+}
