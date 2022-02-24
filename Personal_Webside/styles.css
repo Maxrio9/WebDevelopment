@@ -30,16 +30,47 @@ nav li a{
 }
 
 .banner {
-    max-height: 375px;
-    overflow: hidden;
-    z-index: -5;
+    
 }
 
 .banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 30%;
-    z-index: -5;
+    
+}
+
+.about-me {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.projects {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.skills {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.skills ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    align-content: center;
+    justify-content: center;
+    padding: 0px 5px;
+}
+
+.skills li {
+    padding: 15px;
+    width: 25%;
 }
