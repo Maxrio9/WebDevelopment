@@ -42,7 +42,7 @@ nav li a{
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 5%;
 }
 
 .projects {
@@ -50,7 +50,16 @@ nav li a{
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 5%;
+}
+
+.projects li {
+    list-style-type: none;
+}
+
+.projects a {
+    text-decoration: none;
+    color:rgb(255, 255, 255)
 }
 
 .skills {
@@ -58,7 +67,7 @@ nav li a{
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 5%;
 }
 
 .skills ul {
@@ -67,10 +76,19 @@ nav li a{
     list-style-type: none;
     align-content: center;
     justify-content: center;
-    padding: 0px 5px;
+    padding: 0px 3%;
 }
 
 .skills li {
-    padding: 15px;
+    padding: 3%;
     width: 25%;
+    border-right: #363636 0.1rem dashed;
+}
+
+.skills li * {
+    height: 20%;
+}
+
+footer {
+    padding: 0px 5%;
 }
