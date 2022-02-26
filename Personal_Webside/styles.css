@@ -31,13 +31,102 @@ nav li a{
     text-decoration: none;
 }
 
+nav li a:hover {
+    color: rgb(255, 255, 255);
+}
+
 .banner {
-    height: 630px;
-    max-height: 1500px;
-    overflow: hidden;
-    z-index: -5;
+    
 }
 
 .banner img {
     
+}
+
+.about-me {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.projects {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.projects li {
+    list-style-type: none;
+}
+
+.projects a {
+    text-decoration: none;
+    color:rgb(255, 255, 255)
+}
+
+.projects a:hover {
+    color: rgb(252, 199, 199);
+}
+
+.skills {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.skills ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    align-content: center;
+    justify-content: center;
+    padding: 0px 3%;
+}
+
+.skills li {
+    padding: 3%;
+    width: 25%;
+    border-right: #363636 0.1rem dashed;
+}
+
+.skills li * {
+    height: 20%;
+}
+
+footer {
+    padding: 0px 5%;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+@media only screen and (max-width: 512px) {
+    .bar {
+        justify-content: center;
+    }
+    
+    .bar h1 {
+        display: none;
+    }
+
+    .skills ul{
+        flex-direction: column;
+    }
+
+    .skills li {
+        width: 80%;
+        border-right: none;
+        border-bottom: #363636 0.1rem dashed;
+    }
 }
