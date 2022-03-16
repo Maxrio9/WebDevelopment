@@ -82,9 +82,31 @@ section {
 
 .grid-container {
     display: grid;
-    grid-template: 3 3;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 1em;
 }
 
-.grid-item {
-    width: 28%;
+.grid-container div{
+    border: 0.2rem solid #2d5dcc55;
+}
+
+.grid-item1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background-color: #2d5dcc88;
+    text-align: center;
+}
+
+.grid-item2 {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+    background-color: #2d5dcc88;
+    text-align: center;
+}
+
+.grid-item3 {
+    grid-column: 3;
+    grid-row: 1;
+    background-color: #2d5dcc88;
+    text-align: center;
 }
