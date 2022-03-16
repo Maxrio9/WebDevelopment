@@ -79,3 +79,12 @@ section {
     font-size: 150%;
     font-weight: 700;
 }
+
+.grid-container {
+    display: grid;
+    grid-template: 3 3;
+}
+
+.grid-item {
+    width: 28%;
+}
