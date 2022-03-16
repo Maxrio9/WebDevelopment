@@ -1,5 +1,12 @@
+/* General */
+
 * {
     font-family: "Sourc Code Pro", monospace;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(202, 227, 255);
 }
 
 section {
@@ -7,6 +14,8 @@ section {
     padding: 5px;
     margin: 5px;
 }
+
+/* Color */
 
 #colors div{
     padding: 5px;
@@ -36,49 +45,49 @@ section {
     color: white;
 }
 
+/* Fonts */
+
 #fonts h3 {
     font-style: underline;
 }
 
-#fonts div {
+#fonts article {
     padding: 5px;
     margin: 4px;
-    display: inline-block;
+    display: inline;
     width: 40%;
-    text-align: center;
+    font-size: 150%;
 }
 
 .scp-200 {
-    font-size: 150%;
     font-weight: 200;
 }
 
 .scp-200-ita {
-    font-size: 150%;
     font-weight: 200;
     font-style: italic;
 }
 
 .scp-300 {
-    font-size: 150%;
     font-weight: 300;
 }
 
 .scp-300-ita {
-    font-size: 150%;
     font-weight: 300;
     font-style: italic;
 }
 
 .scp-400 {
-    font-size: 150%;
     font-weight: 400;
 }
 
 .scp-700 {
-    font-size: 150%;
     font-weight: 700;
 }
+
+/* Spacing */
+
+/* Grid */
 
 .grid-container {
     display: grid;
@@ -110,3 +119,6 @@ section {
     background-color: #2d5dcc88;
     text-align: center;
 }
+
+/* Flexbox */
+
