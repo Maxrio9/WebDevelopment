@@ -93,6 +93,7 @@ section {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .grid-container div{
@@ -122,3 +123,72 @@ section {
 
 /* Flexbox */
 
+.flexbox-item {
+    background-color: #2d5dcc88;
+    margin: 2%;
+    width: 8rem;
+    height: 60px;
+    border: 0.2rem solid #2d5dcc55;
+}
+
+.flexbox-container1 {
+    display: flex;
+    justify-content: left;
+}
+.flexbox-container2 {
+    display: flex;
+    justify-content: right;
+}
+.flexbox-container3 {
+    display: flex;
+    justify-content: space-around;
+}
+.flexbox-container4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.flexbox-container5 {
+    display: flex;
+    justify-content: space-between;
+}
+.flexbox-container6 {
+    background-color: #ffffff44;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: baseline;
+    width: 50%;
+    height: 280px;
+    justify-content: center;
+    border: 0.2rem solid #00000030;
+}
+.flexbox-container7 {
+    background-color: #ffffff44;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 280px;
+    justify-content: center;
+    border: 0.2rem solid #00000030;
+}
+.flexbox-container8 {
+    background-color: #ffffff44;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    height: 280px;
+    justify-content: center;
+    border: 0.2rem solid #00000030;
+}
+
+.flexbox-container9 {
+    background-color: #ffffff44;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    height: 280px;
+    justify-content: center;
+    border: 0.2rem solid #00000030;
+}
