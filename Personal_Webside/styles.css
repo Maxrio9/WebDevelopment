@@ -95,6 +95,10 @@ footer {
     padding: 0px 5%;
 }
 
+.contact-form h2 {
+    text-align: center;
+}
+
 form {
     display: flex;
     flex-flow: column;
